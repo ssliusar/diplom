@@ -1,0 +1,35 @@
+.questionContent{
+  padding: 40px 0 0;
+
+  & h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+    border: 0 solid #2ecd76;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    padding: 40px 0 40px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  & .list {
+    padding: 60px 0 0;
+    & .listItem {
+      position: relative;
+      border-color: #2ecd76;
+      padding: 60px 40px 60px;
+
+      & h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+      }
+
+      & p{
+        font-size: 16px;
+        text-align: justify;
+      }
+    }
+  }
+}

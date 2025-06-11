@@ -1,0 +1,11 @@
+.equal-width-tabs .ant-tabs-nav .ant-tabs-nav-list {
+  width: 100%;
+  display: flex;
+}
+
+.equal-width-tabs .ant-tabs-tab {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 0 !important;
+}

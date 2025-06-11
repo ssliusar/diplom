@@ -1,0 +1,29 @@
+.bannerImg {
+  position: relative;
+
+  & img{
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+  }
+
+  & .bannerTitle {
+    position: absolute;
+    padding: 40px 125px;
+    height: 100%;
+
+    & h1 {
+      font-size: 80px;
+      color: #fff;
+    }
+
+    & h2 {
+      position: absolute;
+      font-size: 54px;
+      color: #fff;
+      margin-top: 20px;
+    }
+  }
+}

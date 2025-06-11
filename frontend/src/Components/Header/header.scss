@@ -1,0 +1,53 @@
+header{
+  & .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    margin: 20px auto;
+
+
+    & .logo{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      & img{
+        max-width: 60px;
+      }
+
+      & p{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        max-width: 260px;
+      }
+    }
+
+    & ul{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 400px;
+      & li{
+        font-size: 20px;
+        & a{
+          font-weight: 400;
+
+          transition: color 0.4s ;
+          &:hover{
+            color: #2ecd76;
+          }
+        }
+      }
+    }
+
+    & .authorization{
+      font-size: 16px;
+      height: 40px;
+      color: #fff;
+    }
+  }
+
+
+}

@@ -1,0 +1,101 @@
+.itemDescription{
+
+  & h4{
+    position: relative;
+    padding: 40px 340px 40px 0;
+    font-size: 20px;
+    font-weight: 700;
+
+    & .option{
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translate(0%,-50%);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      & .category, & .condition{
+        background-color: #2ecd76;
+        border-radius: 8px;
+        padding: 6px 8px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      & .condition{
+        right: 120px;
+        color: #121212;
+        border: 1px solid #2ecd76;
+        background-color: transparent;
+      }
+    }
+
+  }
+
+  & .imageList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    & > div{
+      max-width: 450px;
+      min-width: 450px;
+      min-height: 450px;
+      max-height: 450px;
+
+      & img{
+        width: 100%;
+        max-width: 450px;
+        min-width: 450px;
+        min-height: 450px;
+        max-height: 450px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+    }
+  }
+
+  & > p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    padding: 40px 0 0;
+  }
+
+  & .triggers{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0 0;
+
+    & button{
+      height: 50px;
+      font-size: 18px;
+      width: 100%;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+  }
+
+  & .links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0 60px;
+
+    & button{
+      height: 50px;
+      font-size: 16px;
+      width: 100%;
+      max-width: 50%;
+      margin: 0 auto;
+      color: #121212;
+    }
+  }
+
+}

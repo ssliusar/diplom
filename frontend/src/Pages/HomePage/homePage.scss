@@ -1,0 +1,125 @@
+.firstContent{
+ & .bannerImg{
+   position: relative;
+min-height: 700px;
+   & .bannerTitle{
+     position: absolute;
+     padding: 40px 125px;
+     height: 100%;
+     & h1{
+       font-size: 80px;
+       color: #fff;
+     }
+
+     & h2{
+       position: absolute;
+       font-size: 54px;
+       color: #fff;
+       margin-top: 20px;
+     }
+   }
+
+   & .inputBlock{
+     position: absolute;
+     bottom: -50px;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     background-color: #fff;
+     border-radius: 20px;
+     max-width: 1200px;
+     width: 100%;
+     //height: 140px;
+     padding: 40px 0 40px;
+
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-between;
+
+     box-shadow: 0 18px 20px rgba(0, 0, 0, 0.1);
+
+     & .inputLine{
+       position: relative;
+       display: flex;
+       align-items: center;
+       max-width: 800px;
+       margin: 0 auto;
+       width: 100%;
+
+       & input {
+         height: 50px;
+         max-width: 800px;
+         border-radius: 40px;
+         padding: 0 110px 0 20px;
+         font-size: 22px;
+         border-color: #2ecd76;
+         
+         &::placeholder{
+           color: #2ecd76;
+           opacity: 0.4;
+         }
+       }
+
+       & button{
+         position: absolute;
+         right: 0;
+         border-radius: 40px;
+         height: 50px;
+
+          & span{
+            font-size: 20px;
+            font-weight: 800;
+          }
+       }
+
+     }
+
+     & .popularCategory{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       max-width: 700px;
+       width: 100%;
+       margin: 14px auto 10px;
+
+       & li{
+         & a{
+           border-radius: 80px;
+           padding: 20px;
+         }
+       }
+     }
+
+   }
+
+  & img{
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+  }
+ }
+
+  & .catalog{
+    padding: 120px 0 0;
+
+    & .list{
+      & .listItem{
+        position: relative;
+
+        & .category{
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: #2ecd76;
+          border-radius: 8px;
+          padding: 6px 8px;
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
